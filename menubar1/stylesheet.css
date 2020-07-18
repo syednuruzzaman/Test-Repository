@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    padding: none;
+}
+nav{
+    background: #333;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+ }
+nav a:hover{
+    background-color: #555;
+}
+@media screen and (min-width: 740px){
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav li{
+        flex: 1 1 0;
+    }
+}
